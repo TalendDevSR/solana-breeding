@@ -1,0 +1,133 @@
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+ ::-webkit-scrollbar-track {
+    background:#0a1217 ;
+    border-radius: 0px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #0a1217;
+    border-radius: 0px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #0a1217;
+}
+#mainHeader{
+    position: relative !important;
+    padding-bottom: 1rem;
+    box-shadow: none;
+    #searchBox{
+        position: relative;
+        #inputContainer{
+            position:relative;
+            padding:0;
+            margin:0;
+            #address{
+                width: 96%;
+                height: 3.2rem;
+                border-radius: 2rem;
+                padding: 1rem 1rem 1rem 3rem;
+                
+                background: #142228;
+                font-size: 1.2rem;
+                color: white;
+            }
+            #searchIcon{
+                position:absolute;
+                bottom:0.7rem;
+                left:0.8rem;
+                width:2rem;
+                height:2rem;
+            }
+        }
+    }
+  
+    #searchList{
+        position: absolute;
+        list-style-type: none;
+        margin-top: 0px !important;
+        background-color: #242632;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 87%;
+        max-height: 14rem;
+    }
+    li:hover{
+        cursor: pointer;
+        background-color: #2f313d;
+    }
+    #eachToken{
+        #tokenIcon{
+            display: flex;
+        }
+        #tokenName{
+            font-size: 1.1rem;
+        }
+        #tokenSymbol{
+            font-size: 0.8rem;
+        }
+        a{
+            color: white;
+            text-decoration: unset;
+        }
+    }
+    #header{
+        margin-top:2rem;
+        margin-left: 17rem;
+    }
+    #usdButton1{
+        border-radius: 50px;
+        background-color: #142228;
+        color: white;
+        font-size:18px;
+    }
+    #usdButton2{
+        background-color: #142228;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 1rem;
+        font-size: 18px;
+        color: #6aadd7;
+    }
+    #tokenSearchIcon{
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+    .buttonGroup{
+        justify-content: end;
+        display: flex;
+    }
+    .buttonGroup1{
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+    }
+    .makeStyles-header-95{
+        padding-top: 0px!important;
+    }
+
+    .wallet-adapter-modal-container{
+        margin-top:7rem !important;
+    }
+    .wallet-adapter-button-trigger{
+        border: solid 1px !important;
+        border-radius: 14px !important;
+        color: #6aadd7;
+        // border-image: linear-gradient(to right, #6494e0, #ab4ce9) !important;
+        background: #0a1217;
+    }
+
+    #usd{
+        width:1.2rem;
+    }   
+    #percent{
+        font-size: 0.8rem;
+    }
+}

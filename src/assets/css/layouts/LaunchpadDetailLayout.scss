@@ -1,0 +1,255 @@
+#LaunchDetailcontainer{
+    margin: 3rem 19rem 3rem 19rem;
+    border: solid 1px  #222d34;
+    padding: 1rem 2rem 1rem 2rem;
+    #status{
+        padding-left: 1rem;
+    }
+    #projectLogoGrid{
+        margin-top: 1rem;
+        display: flex;
+        #logoGrid{
+            display: flex;
+            justify-content: flex-end;
+        }
+        #projectLogo{
+            width: 4rem;
+            height: 4rem;
+        }
+        #blockchainLogo{
+            width: 1.3rem !important;
+            height: 1.3rem !important;
+            margin-left: -1rem;
+            margin-top: 3rem;
+            border: solid 1px #c37dc3;
+            border-radius: 50px;
+            z-index: 999;
+        }
+        #projectName{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 1rem;
+            font-size: 2rem;
+            color: #6aadd7;
+        }
+        #tokenName{
+            color:#6aadd7;
+            font-size: 1.3rem;
+            margin-left: 1rem;
+            display: flex;
+            justify-content: start;
+        }
+    }
+    #walletConnect{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    #socialLink{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1.5rem;
+        .icons{
+            width: 32px !important;
+            height: 32px !important;
+            cursor: pointer;
+            color: white;
+        }
+        
+        .icon{
+            width: 30px !important;
+            height: 30px !important;
+            cursor: pointer;
+        }
+    }
+    #detailText{
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: white;
+    }
+    #detailImg{
+        width: 100%;
+        height: 16rem;
+    }
+    #liveIcon{
+        padding: 0.2rem 1.3rem 0.2rem 1.3rem;
+        background: #183a3f;
+        border-radius: 23px;
+        color: #4caf50;
+        font-size: 1rem;
+    }
+    #endIcon{
+        padding: 0.2rem 1.3rem 0.2rem 1.3rem;
+        background: #3b1826;
+        border-radius: 23px;
+        color: #e91e63;
+        font-size: 1rem;
+    }
+    #dataSection{
+        display: flex;
+        justify-content: space-between;
+    }
+    #dataGrid{
+        margin-top: 1rem;
+    }
+    #startDate{
+        font-size: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        #startTitle{
+            color: #6aadd7;
+            font-weight: bold;
+        }
+        #startday{
+            color:white;
+        }
+    }
+    #endDate{
+        font-size: 1rem;
+        display: flex;
+        margin-top: 1rem;
+        justify-content: start;
+        color: white;
+    }
+    #percent{
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: white;
+    }
+    #slider{
+        margin-top: 1rem;
+        #cowbell{
+            width: 100%;
+        }
+    }
+    #price{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        #nowPrice{
+            color: white;
+            font-size: 1rem;
+        }
+        #totalUsdc{
+            color: white;
+            font-size: 1rem;
+        }
+    }
+    #value{
+        display: flex;
+        justify-content: space-between;
+    }
+    #tokenPriceInfo{
+        margin-top: 1rem;
+        color: white;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        #priceTitle{
+            color:#6aadd7;
+            font-weight: bold;
+        }
+    }
+    #raise{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1rem;
+        #raiseTitle{
+            color:#6aadd7;
+            font-weight: bold;
+        }
+    }
+    #allocationGrid{
+        display: flex;
+        justify-content: space-between;
+        .allocation{
+            color: white;
+            font-size: 1rem;
+        }
+        .allocationTitle{
+            font-size: 1rem;
+            color:#6aadd7;
+            font-weight: bold; 
+        }
+    }
+    #balanceGrid{
+        display: flex;
+        justify-content: space-between;
+        .balance{
+            color: white;
+            font-size: 1rem;
+        }
+        .balanceTitle{
+            font-size: 1rem;
+            color:#6aadd7;
+            font-weight: bold; 
+        }
+    }
+    #transferGrid{
+        margin-top: 1rem;
+        #staked{
+            display: flex;
+            justify-content: space-between;
+            #stakedTitle{
+                font-size: 1rem;
+                color:#6aadd7;
+                font-weight: bold; 
+            }
+            #stakedamount{
+                color:white
+            }
+        }
+        #transfer{
+            display: flex;
+            justify-content: space-between;
+            #action{
+                display: flex;
+            }
+            #amountGrid{
+                display: flex;
+                align-items: center;
+                #amount{
+                    width: 100%;
+                    height: 2.1rem;
+                    background: #0a1217;
+                    border: none;
+                    color: 0;
+                    color: white;
+                }
+            }
+            #action{
+                display: flex;
+                align-items:center;
+                justify-content: space-between;
+                #maxBtn{
+                    margin-left: -1rem;
+                    padding: 0px;
+                    cursor: pointer;
+                    color: #6aadd7;
+                }
+                #sendBtn{
+                    border-color: #6aadd7;
+                    color: #6aadd7;
+                    border-width: 2px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width: 0px) {
+    #LaunchDetailcontainer{
+        margin:1rem !important;
+        #blockchainLogo{
+            margin-top: -2rem !important;
+        }
+        #walletConnect{
+            display: none !important;
+        }
+    }
+    #launch{
+        padding-top: 10rem;
+    }
+}

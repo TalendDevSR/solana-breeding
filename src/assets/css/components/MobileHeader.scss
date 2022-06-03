@@ -1,0 +1,58 @@
+   #mobilelogo{
+       position: fixed !important;
+   }
+   #mobileHeader{
+        padding-bottom: 1rem;
+        
+        #mobileSetting{
+            margin-top: 5rem;
+        }
+        #priceUsd{
+            border-color: white;
+            border-radius: 50px;
+            color: white;
+            font-size:0.9rem;
+            display: flex;
+        }
+        #priceSolv{
+            display: flex;
+            border-color: white;
+            border-radius: 50px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-left: 1rem;
+            font-size: 0.9rem;
+            color:#6aadd7;
+        }
+        .wallet-adapter-button{
+            font-size: 0.9rem;
+            padding: 0 10px !important;
+            line-height: 1rem !important;
+        }
+        .mobileButtonGroup1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .mobileButtonGroup2{
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .wallet-adapter-modal-container{
+            margin-top:7rem !important;
+        }
+        .wallet-adapter-button-trigger{
+            border: solid 1px !important;
+            border-radius: 14px !important;
+            color: #6aadd7;            
+            background-color: #0a1217; 
+        }
+        #usd{
+            width: 1.2rem;
+        }
+    }
+    .MuiContainer-root{
+        justify-content: start !important;
+    }
+    

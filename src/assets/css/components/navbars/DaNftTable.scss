@@ -1,0 +1,37 @@
+#assetButton{
+    display: flex;
+    color: white;
+}
+#tokenIcon{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+#greyCell{
+    
+    background-color: #111b20;
+}
+
+#ButtonRow{
+    display: flex;
+    justify-content: center;
+    margin-top: -0.5rem;
+}
+a:hover {
+  color:#6aadd7;
+  cursor: pointer;
+}
+#moreModal{
+    overflow: inherit !important;
+}
+#attrValue{
+    overflow-y: scroll !important;
+}
+#actionButton{
+    display: flex;
+    justify-content: right;
+}
+
+#detailButton{
+    border-color: #6aadd7;
+    color: #6aadd7
+}

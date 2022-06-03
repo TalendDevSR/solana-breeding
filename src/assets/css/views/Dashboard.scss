@@ -1,0 +1,230 @@
+#container{
+    min-height: 90vh;
+    margin-top: 0rem !important;
+}
+
+#netWorth{
+    background-color: #0c151a !important;
+    width: 85%;
+}
+#nwName{
+    color: white !important;
+}
+#nwValue{
+    color: white;
+    font-size: 2rem;
+}
+
+#dashboardLogo{
+    margin-left: 0.1rem;
+}
+#dashboardLetter{
+    color: #6aadd7;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.dashImgChip{
+    display: flex;
+    padding:0.2rem;
+}
+
+#digital{
+    display: flex;
+}
+#digitalImg{
+    padding:0.2rem;
+    display: flex;
+}
+#digitalName{
+    display: flex;
+    color: white;
+}
+#porto{
+    display: flex;
+}
+#portoImg{
+    padding:0.2rem;
+    display: flex;
+}
+#portoName{
+    display: flex;
+    color: white;
+}
+
+#cardHeader{
+    border-bottom: solid 1px #8f92a1;
+}
+#cardContent{
+    margin-top: 1rem;
+}
+#dashTable{
+    background-color: #0c151a !important;
+}
+#tabelheader{
+    background-color: #111b20;
+    height: 4rem;
+}
+
+#headercontent{
+    background-color: #2f313d !important;
+    border-radius: 1.1rem;
+}
+
+#lineChartButton{
+    background-color: #2f313d;
+    border: 0px !important;
+}
+#priceGroup{
+    margin-top: 2rem !important;
+}
+#candleChartButton{
+    background-color: #2f313d;
+}
+#candleChart{
+    margin-top: 4rem;
+}
+#chartTypeButton{
+    display: flex;
+    margin-left: -1rem;
+}
+#tokenPair{
+    padding:0.5rem;
+}
+#chart{
+    margin-left: -5rem;
+    margin-top: 4rem;
+}
+.apexcharts-yaxis{
+    display: none;
+}
+.apexcharts-title-text{
+    display: none;
+}
+#promoted_img{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+#promoted{
+    display:flex;
+}
+.MuiTypography-h2{
+    color:white !important;
+}
+#value{
+    border-right: solid #3b3e47 1px;
+}
+#button2{
+    padding: 0 !important; 
+}
+#button1{
+    padding: 0 !important;
+}
+#butgroup{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+#tokenicon{
+    width: 3rem;
+    border-radius: 25px;
+}
+#chart{
+    background-color: "#171925";
+}
+#pairTable{
+    background: #242632 !important;;
+}
+#promotedTable{
+    background-color: #242632 !important;
+}
+#dayButtonGroup{
+    border:none;
+    background-color: #2f313d;
+}
+#chartDayButton{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#promted_address{
+    display: flex;
+}
+#chartBox{
+    background-color: #242632;
+}
+#values{
+    color:#ae46f0 !important;
+}
+#dex{
+   color:#c35ceb;
+}
+#trendButton{
+    display: flex;
+    background-color: #2f313d;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+#tokenPair{
+    display: flex;
+    
+}
+#tokenInfoButton{
+    display: flex;
+    background-color: #2f313d;
+    border-radius: 50px;
+    font-size: 1rem;
+    margin-left: 4rem;
+}
+#buy_sell{
+    display: flex;
+}
+#buy_sell_img{
+    width: 0.8rem;
+}
+#transactionButtons{
+    display:flex;
+    justify-content: space-between;
+}
+
+#cell{
+    border-top: 0px !important;
+}
+.MuiTableCell-root{
+    border:0px !important;
+    color: white !important;
+}
+#cells{
+    background-color: #2f313d;
+}
+#pairHeader{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+.tablecell{
+    font-size: 0.8rem;
+    color: white;
+}
+#promotedCell{
+    font-size: 0.8rem;
+    color :#c35ceb !important;
+}
+#promotedButton{
+    display: flex;
+    font-size: 1.2rem;
+    background-color: #2f313d;
+    border-radius: 44px;
+    color: #c35ceb;
+}
+#eyeButton{
+    display: flex;
+    font-size: 1.2rem;
+    background-color: #2f313d;
+    border-radius: 44px
+}
+#tokenPair{
+    display: flex;
+    font-size: 1.2rem;
+    color: #c35ceb;
+}

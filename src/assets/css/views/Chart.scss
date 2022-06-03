@@ -1,0 +1,628 @@
+#chartContainer{
+    min-height: 90vh;
+    margin-top: 0rem !important;
+    iframe{
+        height: 600px !important;
+    }
+    #headercontent{
+        background-color: #0C161C !important;
+        border-radius: 1.1rem;
+        border: 1px solid #162732;
+    }
+    .MuiDrawer-paperAnchorDockedLeft {
+        border-right:solid 0.1px #5a5a5a !important;
+    }
+    #tokenAddress{
+        display: flex;
+    }
+    #headerval{
+        color: #6aadd7 !important;
+    }
+    #copy{
+       cursor: pointer;
+    }
+    #copyButton{
+        color: white;
+    }
+    #copyButton :hover{
+        color: #6aadd7;
+    }
+    .MuiButtonGroup-contained{
+        box-shadow: none !important;
+    }
+    #lineChartButton{
+        background-color: #0c161c;
+        border: 0px !important;
+    }
+    #percent{
+        font-size: 1rem;
+    }
+    #gainerImg{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    #gainerName{
+        display: flex;
+        cursor: pointer;
+    }
+    #gainerName :hover{
+        color: #6aadd7;
+    }
+    #priceGroup{
+        margin-top: 2rem !important;
+    }
+   
+    #trendToken :hover{
+        color:#be81e4 !important;
+    }
+    #trendName{
+        font-weight: bold;
+        color: #6aadd7;
+        padding:0px;
+    }
+    #trendToken{
+        color: white;
+        margin-left: 2rem;
+    }
+    #newToken :hover{
+        color:#be81e4 !important;
+    }
+    #newName{
+        font-weight: bold;
+        color: #c35ceb;
+        padding:0px;
+    }
+    #newToken{
+        color: white;
+        margin-left: 2rem;
+    }
+  
+    #candleChartButton{
+        background-color: #0c161c;
+        border: none;
+    }
+    .MuiBox-root-72{
+        position: fixed;
+    }
+    #banner{
+        background-color: #0a1217 ;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    } 
+ 
+    #candleChart{
+        .apexcharts-canvas{
+            margin-left: -5rem;
+        }
+    }
+    #bannerImage{
+        width: 970px;
+        height: 90px;
+    }
+
+    .MuiPaper-elevation4{
+        box-shadow: none !important;
+    }
+    #candleChart{
+        margin-top: 4rem;
+    }
+    #chartTypeButton{
+        display: flex;
+        margin-left: -1rem;
+    }
+    #tokenPair{
+        padding:0.5rem;
+        border-radius: 0.375rem;
+    }
+    #chart{
+        margin-left: -5rem;
+        margin-top: 4rem;
+    }
+    .apexcharts-yaxis{
+        display: none;
+    }
+    .apexcharts-title-text{
+        display: none;
+    }
+    #promoted_img{
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+    #promoted{
+        display:flex;
+    }
+    .MuiTypography-h2{
+        color:white !important;
+    }
+    #value{
+        border-right: solid #162732 1px;
+    }
+    #button2{
+        padding: 0 !important; 
+    }
+    #buyButton{
+        border-radius: 19px;
+        width: 5.3rem;
+        cursor: pointer;
+        background: #142228;
+        border: none;
+        padding: 0.3rem;
+        color: white;
+        display: flex;
+        margin-bottom: 0.3rem;
+        align-items: center;
+    }
+    #butgroup{
+        padding-top:1rem;
+        padding-bottom: 1rem;
+    }
+    #tokenicon{
+        width: 3rem;
+        border-radius: 25px;
+    }
+    #chart{
+        background-color: "#171925";
+    }
+    #pairTable{
+        background: #0a1217 !important;
+    }
+    #tokenInfoTable{
+        background: #0a1217 !important;
+        margin-top: 2rem;
+    }
+    #topTokenGrid{
+        background-color: #0a1217 !important;
+        #topTokenGridHeader{
+            display: flex;
+            justify-content: center;
+            .promotedButton{
+                display: flex;
+                border: none;
+                background: #0a1217;
+                border-right: solid 1px grey;    
+            }
+            .gainerButton{
+                display: flex;
+                border: none;
+                background: #0a1217;
+                border-right: solid 1px grey;    
+            }
+            .loserButton{
+                display: flex;
+                background: #0a1217;
+                border: none;
+            }
+            .trendButton{
+                display: flex;
+                background: #0a1217;
+                border: none;
+                border-right: solid 1px grey;    
+            }
+            .holderButton{
+                display: flex;
+                background: #0a1217;
+                border: none;
+            }
+        }
+    }
+    #dayButtonGroup{
+        border:none;
+        background-color: #0c161c;
+    }
+    
+    #promted_address{
+        display: flex;
+    }
+    .promotedHeader{
+        font-weight: bold;
+    }
+    #openNew{
+        color: white;
+        text-decoration-line: unset;
+    }
+    #openNew:hover{
+        color:#6aadd7!important;
+    }
+
+
+    #chartHeader{
+
+        background-color: #0a1217 !important;
+    }
+    #chartBox{
+        height: 700px;
+        background-color: #0a1217;
+        article{
+            div{
+                width: 100% !important;
+                div{
+                    width: 100%!important;
+                }
+            }
+        }
+    }
+    #tokenSite{
+        display: flex;
+        justify-content: center;
+        #tokenSiteUrl{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    #tokenTw{
+        display: flex;
+        justify-content: center;
+        #tokenTwUrl{
+            color: white;
+        }
+    }
+
+    #values{
+        color:#6aadd7!important;
+    }
+    #tokenMetaInfo{
+        margin-top: -18rem !important;
+    }
+
+    #tokenPair{
+        display: flex;
+        
+    }
+
+    #buy_sell{
+        display: flex;
+    }
+    #buy_sell_img{
+        width: 0.8rem;
+    }
+    #transactionButtons{
+        display:flex;
+        justify-content: space-between;
+    }
+    #tabelheader{
+        background-color:#0a1217;
+        border-bottom: solid 1px grey;
+    }
+    #pairTbHeader{
+        background: linear-gradient(to right, #233741, #131e25);
+    }
+    #topCell{
+        border-bottom: solid 1px grey;
+        
+    }
+   
+    #pairContainer{
+        max-height: 18rem;
+        margin-top: 0.8rem;
+    }
+    #cell{
+        border-top: 0px !important;
+        background: #0a1217;
+    }
+    .MuiTableCell-root{
+        border:0px !important;
+        color: white !important;
+    }
+    #cells{
+        background-color: #2f313d;
+    }
+    #tbcell1{
+        border-top: 0px !important;
+        border-bottom: solid 1px grey;
+        background-color: #142228;
+    }
+    #tbcell2{
+        border-bottom: solid 1px grey;
+        background: #0a1217;
+    }
+    #traContainer{
+        max-height: 35rem;
+    }
+    #leftTable{
+        background-color: #0a1217 !important;
+        #traMore{
+            display: flex;
+            justify-content: center;
+            padding: 0.7rem;
+        }
+    }
+    #pairHeader{
+        display: flex;
+        justify-content: center;
+        font-size: 0.8rem;
+        background-color: #0a1217;
+    }
+    .tablecell{
+        font-size: 0.8rem;
+        color: white;
+    }
+    #promotedCell{
+        font-size: 0.8rem;
+        color: #c35ceb!important;
+    }
+    
+    #pairCell{
+        display: flex;
+        justify-content: center;
+    }
+    #pairButton{
+        div{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    #eyeButton{
+        display: flex;
+        font-size: 1.2rem;
+        background-color: #2f313d;
+        border-radius: 44px
+    }
+    #tokenPair{
+        display: flex;
+        font-size: 1rem;
+        color:  #dfe0e1;
+        background: #0a1217;
+    }
+}
+@media screen and (max-width: 3000px) and (min-width: 1025px) {
+    .allvalue{
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+    }   
+    #price{
+        font-size: 1rem;
+    } 
+    #connectButton{
+        font-size: 0.9rem;
+    }
+    #usdButton1{
+        font-size: 0.9rem;
+    }
+    #usdButton2{
+        font-size: 0.9rem;
+    }
+    #tokenicon{
+        margin-top: 1rem !important;
+    }
+    #headerval{
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: center;
+    }
+    #trendName{
+       color: #6aadd7;
+    }
+    #newName{
+        background: linear-gradient(to right, #6aadd7, #8702ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #values{
+        background:linear-gradient(to right, #6aadd7, #8702ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #traMoreBtn{
+       color: #6aadd7;
+       border-color: #6aadd7;
+    }
+    
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    #container{
+        margin-top: -5rem !important;
+    }
+    #Grid2{
+        padding: 0.3rem;
+    }
+    .buttonGroup{
+        margin-top: 1rem !important;
+    }
+    .buttonGroup1{
+        margin-top: 1rem !important;
+    }
+ 
+    #chartBox{
+        margin-top: 0rem !important;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    #trendName{
+        font-size: 0.8rem !important;
+    }
+    #tendToken{
+        font-size: 0.8rem !important;
+    }
+    #newName{
+        font-size: 0.8rem !important;
+    }
+    #newToken{
+        font-size: 0.8rem !important;
+    }
+    #chartMainContent{
+        margin-top: 10rem !important;
+    }
+    .apexcharts-canvas{
+        margin-top: 7rem;
+    }
+    #usdButton1{
+        font-size: 0.6rem;
+    }
+    #usdButton2{
+        font-size: 0.8rem;
+    }
+    #connectButton{
+        font-size: 0.7rem;
+    }
+    .buttonGroup{
+        margin-top: 1rem !important;
+    }
+    .buttonGroup1{
+        margin-top: 1rem !important;
+    }
+    #container{
+        margin-top: -3rem !important;
+    }
+    
+    #tokenicon {
+        width: 2rem;
+        margin-top: 1.2rem !important;
+    }
+    #price{
+        font-size: 0.7rem;
+    }
+    #headerval{
+        font-size: 0.5rem;
+    }
+    .allvalue{
+        font-size: 0.7rem !important;
+    }
+    #percent{
+        font-size: 0.5rem;
+    }
+    
+    #values{
+        font-size: 0.7rem;
+    }
+    #button1{
+        margin-left: -1rem !important;
+    }
+    #button2{
+        margin-left: -1rem !important;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    .apexcharts-canvas{
+        margin-top: 7rem;
+    }
+     #chartMainContent{
+        margin-top: 10rem !important;
+    }
+    #tokenicon{
+        width: 2rem !important;
+        margin-top: 0.8rem;
+        margin-left: 2rem;
+    }
+    #price{
+        font-size: 0.8rem;
+    }
+    .allvalue {
+        font-size: 0.7rem !important;
+    }
+    #values{
+        font-size: 0.6rem;
+    }
+    #butgroup{
+        margin-left: -1rem;
+    }
+   
+
+}
+@media screen and (max-width: 375px) and (min-width: 321px) {
+    .apexcharts-canvas{
+        margin-top: 7rem;
+    }
+     #chartMainContent{
+        margin-top: 10rem !important;
+    }
+    #tokenicon{
+        width: 2rem !important;
+        margin-top: 1rem;
+    }
+    #tokenName{
+        width: 5rem;
+        margin-left: -0.4rem;
+    }
+    #tokenPrice{
+        width: 5.3rem;
+        margin-left: -1rem;
+    }
+    #hVol{
+        width: 3rem;
+        margin-left: -1rem;
+    }
+    #headerval{
+        font-size: 0.7rem;
+    }
+    #hVal{
+        width: 3rem;
+        margin-left: -1rem;
+    }
+    #liquidity{
+        width: 3rem;
+        margin-left: -0.8rem;
+    }
+    #liqval{
+        width: 3rem;
+        margin-left: -0.8rem;
+    }
+    #marketcap{
+        width: 3rem;
+        margin-left: -0.2rem;
+    }
+    #marketval{
+        width: 3rem;
+        margin-left: -0.2rem;
+    }
+    #price{
+        font-size: 0.8rem;
+    }
+    .allvalue {
+        font-size: 0.7rem !important;
+    }
+    #values{
+        font-size: 0.6rem;
+    }
+    #butgroup{
+        margin-left: -1.8rem;
+    }
+    
+
+}
+@media screen and (max-width: 320px) and (min-width: 0px) {
+    .apexcharts-canvas{
+        margin-top: 7rem;
+    }
+     #chartMainContent{
+        margin-top: 10rem !important;
+    }
+    #tokenicon{
+        width: 2rem !important;
+        margin-top: 1rem;
+    }
+    #tokenName{
+        width: 5rem;
+        margin-left: -0.8rem;
+    }
+    #tokenPrice{
+        width: 5.3rem;
+        margin-left: -1rem;
+    }
+    #headerval{
+        font-size: 0.6rem;
+    }
+    #price{
+        font-size: 0.8rem;
+    }
+    
+    .allvalue {
+        font-size: 0.7rem !important;
+    }
+    #values{
+        font-size: 0.6rem;
+    }
+    
+    #butgroup{
+        margin-left: -1.8rem;
+    }
+
+    #buypng{
+        width: 4.8rem;
+    }
+    #sellpng{
+        width: 4.8rem;
+    }
+  
+}

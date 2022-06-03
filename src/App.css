@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    #mainHeader{
+        display: none;
+    }
+    #banner{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 3000px) and (min-width: 768px) {
+    #mobileHeader{
+        display: none;
+    }
+    
+}
