@@ -57,7 +57,7 @@ const App = () => {
                     <WalletProvider wallets={wallets} autoConnect>
                         <WalletModalProvider>
                             <Router>
-                                <Switch >
+                                <Switch>
                                     <Route path="/" component={Main} />
                                 </Switch>
                             </Router>
