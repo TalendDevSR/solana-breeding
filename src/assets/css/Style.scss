@@ -1,0 +1,105 @@
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a1217;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0a1217;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0a1217;
+}
+
+// #mainHeader{
+//     position: relative !important;
+//     padding-bottom: 1rem;
+//     box-shadow: none;
+
+//     #header{
+//         margin-top:2rem;
+//         margin-left: 2rem;
+//     }
+//     #usdButton2{
+//         background-color: #142228;
+//         border-radius: 50px;
+//         justify-content: center;
+//         align-items: center;
+//         display: flex;
+//         margin-left: 1rem;
+//         font-size: 18px;
+//         color: #6aadd7;
+//     }
+//     .header-caption{
+//         font-size: 48px;
+//         font-weight: 900;
+//         margin-top: 50px;
+//     }
+//     .header-undercaption{
+//         margin-top: 10px;
+//         font-size: 20px;
+//         margin-bottom: 60px;
+//     }
+//     .buttonGroup{
+//         justify-content: end;
+//         display: flex;
+//     }
+//     .buttonGroup1{
+//         justify-content: flex-start;
+//         align-items: center;
+//         display: flex;
+//     }
+// }
+
+.header_container {
+    background-image: url("../img/breeding/header_back.png");
+    background-size: cover;
+}
+
+.main_container {
+    background-image: url("../img/breeding/main_back.jpg");
+    background-size: cover;
+}
+
+#header {
+    .logo {
+        height: 4rem;
+        margin-top: 2rem;
+    }
+
+    .connect_group {
+        margin-top: 5rem;
+    }
+
+    #usdButton {
+        background-color: #142228;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 1rem;
+        font-size: 18px;
+        color: #6aadd7;
+    }
+    .caption {
+        color: white;
+        font-size: 48px;
+        font-weight: bolder;
+        margin-top: 3rem;
+    }
+    .sub_caption {
+        color: #a1a1a6;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 2rem;
+    }
+    .header_hole { 
+        margin-top: 8rem;
+    }
+}
