@@ -29,10 +29,6 @@ export default function Header() {
   const history = useHistory();
   const dispatch = useDispatch();
   const { publicKey } = useWallet();
-  const [solvPrice, setSolvPrice] = useState(0);
-  const [searchData, setSearchData] = useState([])
-  const [initData, setInitData] = useState([]);
-  const [searchKey, setSearchKey] = useState("");
 
   ///==============function=======================///
 
