@@ -1,16 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 import "assets/css/Style.scss"
 import componentStyles from "assets/theme/components/admin-navbar.js";
 import { useWallet } from '@solana/wallet-adapter-react';
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
-// import SearchIcon from "@material-ui/icons/Search";
-// import settingPng from "assets/img/SolviewIcons/ChartPage/Setting.svg";
 import { save_holder_data, save_gainer_data, save_chart_data, save_loser_data, save_address_data, save_otherAddress_data, save_promoted_data, save_transaction_data, save_symbol_data, save_pair_data, save_token_data, save_nft_data } from "redux/actions/provider";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
@@ -29,8 +25,6 @@ export default function Header() {
   const history = useHistory();
   const dispatch = useDispatch();
   const { publicKey } = useWallet();
-
-  ///==============function=======================///
 
   //to get wallet address that is connected
   const getWalletAddress = async () => {
