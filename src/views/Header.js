@@ -10,7 +10,6 @@ import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import { save_holder_data, save_gainer_data, save_chart_data, save_loser_data, save_address_data, save_otherAddress_data, save_promoted_data, save_transaction_data, save_symbol_data, save_pair_data, save_token_data, save_nft_data } from "redux/actions/provider";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
-import axios from "axios";
 import { clusterApiUrl } from "@solana/web3.js";
 import { getParsedNftAccountsByOwner, createConnectionConfig, } from "@nfteyez/sol-rayz";
 import Logo from "../assets/img/breeding/logo.png";
