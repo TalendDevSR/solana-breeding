@@ -22,11 +22,6 @@ function Main() {
         <Container>
           <Grid Container justify="center" spacing={10} style={{ height: '150px' }}>
           </Grid>
-          <Grid Container justify="center" spacing={10}>
-            {/* <Grid item xs={7} lg={3} className="grid_item"> */}
-            <LinearProgress variant="determinate" value={3} />
-            {/* </Grid> */}
-          </Grid>
           <Grid Container justify="center" spacing={10} style={{ height: '50px' }}>
           </Grid>
           <Grid container justify="center" spacing={5}>
